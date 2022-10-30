@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "builder-docker-2"
+version = "0.1.0"
+description = ""
+authors = ["Andrey \"MOU\" Larionov <anlarionov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "builder_docker_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+docker-squash = "^1.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
